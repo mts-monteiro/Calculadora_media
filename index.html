@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Média Final</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculo da Média Final</h1>
+        <div class="nota">
+            <label for="txt_b1">Nota do 1° Bimestre</label>
+            <input type="text" name="txt_b1" id="txt_b1" >
+        </div>
+        <div class="nota">
+            <label for="txt_b2">Nota do 2° Bimestre</label>
+            <input type="text" name="txt_b2" id="txt_b2">
+        </div>
+        <div class="nota">
+            <label for="txt_b3">Nota do 3° Bimestre</label>
+            <input type="text" name="txt_b3" id="txt_b3">
+        </div>
+        <div class="nota">
+            <label for="txt_b4">Nota do 4° Bimestre</label>
+            <input type="text" name="txt_b4" id="txt_b4">
+        </div>
+        <button onclick="verificar_notas()">Calcular</button>
+        <p>Média Final: <span id="span_media" >0</span> </p>
+        <p id="p_condicao">Situação: </p>
+        
+
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body> 
+</html>
